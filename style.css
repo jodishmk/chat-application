@@ -1,0 +1,45 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+ font: 13px Helvetica, Arial;
+ }
+form { 
+background: #000;
+ padding: 3px; 
+ position: fixed;
+ bottom: 0; 
+ width: 100%; 
+ }
+form input {
+ border: 0; 
+ padding: 10px; 
+ width: 90%; 
+ margin-right: .5%;
+ }
+form #button { color:#FFF; background: #2D9F0B; border: none; padding: 10px;  width: 9%; }
+#messages { list-style-type: none; margin: 0; padding: 0; }
+#messages li { padding: 5px 10px; }
+#messages li:nth-child(odd) { background: #eee; }
+#notifyUser {
+ position: fixed;
+ bottom: 42px;
+ width: 100%; 
+ }
+#sidebar {
+padding: 10em;
+width:20%;
+border: 2px solid darkred;
+background:#3d594b;
+/*float: right;*/
+top:50px;
+position:fixed;
+right:10px;
+}
+.logoutLblPos{
+
+   position:fixed;
+   right:10px;
+   top:5px;
+}
+.sindent {
+text-indent:1em;
+}
